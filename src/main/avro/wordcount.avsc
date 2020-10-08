@@ -1,0 +1,15 @@
+{
+   "namespace":"myapps.avro",
+   "type":"record",
+   "name":"AvroWordCount",
+   "fields":[
+      {
+         "name":"word",
+         "type":"string"
+      },
+      {
+         "name":"wordcount",
+         "type":"int"
+      }
+   ]
+}
